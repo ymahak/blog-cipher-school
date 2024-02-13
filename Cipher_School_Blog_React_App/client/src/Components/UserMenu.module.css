@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+    margin: 15px;
+  }
+  
+  .listGroup {
+    font-size: 20px;
+    background: linear-gradient(to right, #093a79, #0f5867);
+    border-radius: 5px;
+  }
+  
+  .title {
+    color: white;
+  }
+  
+  .listItem {
+    display: block;
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid white;
+  }
+  
+  .listItem:hover {
+    background: linear-gradient(to right, #23508b, #60a5b3);
+  }
+  

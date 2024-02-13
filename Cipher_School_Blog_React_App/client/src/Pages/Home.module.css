@@ -1,0 +1,35 @@
+.HomePage {
+    max-width: 1400px;
+    width: 84%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: center;
+    color: linear-gradient(to right, #093a79, #0f5867);;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+
+  /* Add media queries for smaller screen sizes */
+  @media screen and (max-width: 768px) {
+    .blogs {
+      grid-template-columns: 1fr; /* Use one column layout */
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .heading {
+      font-size: 18px; /* Reduce font size */
+    }
+  }

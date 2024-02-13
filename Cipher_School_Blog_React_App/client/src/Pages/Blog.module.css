@@ -1,0 +1,22 @@
+.HomePage {
+    max-width: 1400px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    /* border: 2px solid red; */
+    box-shadow: -37px 0px 50px rgb(160, 153, 153), 37px 0px 50px rgb(160, 153, 153);
+        border-radius: 13px;
+        overflow: hidden;
+}
+.imagediv{
+    display: flex;
+    justify-content: center;
+}
+.images{
+    display: block;
+        max-width: 300px;
+        max-height: 300px;
+        object-fit: contain;
+    
+        align-items: center;
+}

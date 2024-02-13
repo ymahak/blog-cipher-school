@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .menu {
+    width: 25%;
+  }
+  
+  .content {
+    width: 50%;
+    margin: 10px 0 0 50px;
+  }
+  
+  .formContainer {
+    margin-top: -40px;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .form {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+  
+  .inputGroup {
+    margin-bottom: 2rem;
+  }
+  
+  .input {
+    width: 100%;
+    height: 3rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+  
+  .button {
+    width: 100%;
+    height: 3rem;
+    background: linear-gradient(to right, #093a79, #0f5867);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
